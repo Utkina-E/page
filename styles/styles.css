@@ -1,0 +1,294 @@
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/Roboto_400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/Roboto_700.woff2") format("woff2");
+    font-display: swap;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    background-color: #ECF2FF;
+    margin: 0;
+}
+
+h1,
+h2,
+p,
+ul, button {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ЛЕВАЯ КОЛОНКА */
+
+.left-column {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color: #563BF8;
+    border-radius: 32px;
+    text-align: center;
+    padding: 32px 65px;
+    max-width: 240px;
+    z-index: 1;
+}
+
+.column-name {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.left {
+    color: #D0C6FF;
+}
+
+.right {
+    color: #41465E;
+}
+
+.round {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #4927D3;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    gap: 12px;
+}
+
+.result-number {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 100%;
+    padding-bottom: 12px;
+}
+
+.of-max {
+    color: #D0C6FF;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.result-name {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 100%;
+    padding-bottom: 12px;
+}
+
+
+/* ПРАВАЯ КОЛОНКА */
+
+.right-column {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    width: 740px;
+}
+
+.right-column-main {
+    position: sticky;
+    left: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 65px;
+    padding: 32px 40px;
+    max-width: 290px;
+}
+
+
+/* СПИСОК */
+
+.Summary {
+display: flex;
+flex-direction: column;
+gap: 18px;
+
+}
+
+.Summary-discription {
+    
+    border-radius: 10px;
+    padding: 12px 10px;
+    list-style: none;
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-name {
+    font-weight: 700;
+    line-height: 100%;
+    text-align: left;
+}
+
+/* ИКОНКИ ЭЛЕМЕНТОВ СПИСКА */
+
+.reaction-icon {
+    position: absolute;
+    left: 3px;
+    right: auto;
+    margin: auto 0;
+    fill: #ED9096;
+}
+
+.memory-icon {
+    position: absolute;
+    left: 1px;
+    right: auto;
+    margin: auto 0;
+    fill: #FECD6D;
+}
+
+.verbal-icon {
+    position: absolute;
+    left: 1px;
+    right: auto;
+    margin: auto 0;
+    fill: #44AD92;
+}
+
+.visual-icon {
+    position: absolute;
+    left: 1px;
+    right: auto;
+    margin: auto 0;
+    fill: #4E58BA;
+}
+
+
+
+
+
+/* ЦВЕТ ФОНА ЭЛЕМЕНТОВ СПИСКА */
+
+.reaction {
+    background-color: #FFF6F7;
+}
+.memory {
+    background-color: #FFFAF4;
+}
+
+.verbal {
+    background-color: #F2FDF9;
+}
+
+.visual {
+    background-color: #F4F4FE;
+}
+
+
+/* ЦВЕТ ТЕКСТА СПИСКА */
+
+.red {
+    color: #ED9096;
+}
+
+.yellow {
+    color: #FECD6D;
+}
+.green {
+    color: #44AD92;
+}
+.blue {
+    color: #4E58BA;
+}
+
+
+
+
+.sum {
+    font-weight: 700;
+    color: #000;
+}
+
+.max-result {
+    font-weight: 700;
+    color: #AAA6AE;
+    padding-right: 10px;
+}
+
+
+
+
+.reaction-left {
+    position: relative;
+    padding-left: 28px;
+}
+
+.memory-left {
+    position: relative;
+    padding-left: 28px;
+}
+
+.verbal-left {
+    position: relative;
+    padding-left: 28px;
+}
+
+.visual-left {
+    position: relative;
+    padding-left: 28px;
+}
+
+
+
+/* КНОПКА */
+
+.button {
+    background-color: #303B59;
+    width: 290px;
+border-radius: 32px;
+padding-top: 15px;
+padding-bottom: 15px;
+
+color:#ffffff;
+font-family: "Roboto", "Arial", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+text-align: center;
+border: none;
+}
+
+.button:hover {
+    background-color: #537df0;
+    cursor: pointer;
+    color:#edcc90;
+}
