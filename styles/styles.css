@@ -119,6 +119,7 @@ ul, button {
     background-color: #ffffff;
     border-radius: 32px;
     width: 740px;
+    box-shadow: 0px 0px 25px 12px #87AAF44D;
 }
 
 .right-column-main {
